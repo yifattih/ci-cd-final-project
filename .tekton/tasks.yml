@@ -7,7 +7,7 @@ spec:
   workspaces:
     - name: source
   steps:
-    - name: Remove
+    - name: remove
       image: alpine:3
       env:
         - name: WORKSPACE_SOURCE_PATH
